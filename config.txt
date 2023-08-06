@@ -1,0 +1,11 @@
+## Installation of the tools - Do not modify
+LOC_TOOLS="${PWD}/tools"
+TRIM_bin="${LOC_TOOLS}/TrimGalore/bin"
+BRACKEN_bin="${LOC_TOOLS}/bracken/bin"
+HUM_DB="${LOC_TOOLS}/bowtie2_db/GRCh38_noalt_as/GRCh38_noalt_as"
+## INPUT FILES - TO MODIFY
+PAIR1="${PWD}/example_files/NovaSeq1M_meta_1_R1.fastq.gz" # path to file 1
+PAIR2="${PWD}/example_files/NovaSeq1M_meta_1_R2.fastq.gz" # path to file 2
+SAMPLE_NAME="NovaSeq1M_meta_1" # name of the sample to process
+OUTPUT_DIR="output_folder" # path to output folder
+
